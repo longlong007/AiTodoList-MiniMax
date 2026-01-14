@@ -38,7 +38,6 @@ export class AiService {
       console.log('[AI] Calling Zhipu API...');
       const response = await axios.post(
         this.zhipuApiUrl,
-        this.zhipuApiUrl,
         {
           model: 'glm-4-flash',
           messages: [
